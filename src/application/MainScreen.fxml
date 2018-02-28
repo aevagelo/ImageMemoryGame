@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainApplicationController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="266.6" minWidth="10.0" prefWidth="266.6" halignment="CENTER" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="266.6" minWidth="10.0" prefWidth="266.6" halignment="CENTER" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="266.6" minWidth="10.0" prefWidth="266.6" halignment="CENTER"  />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2"  onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3" onMouseClicked="#handleOnMouseClicked" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3" onMouseClicked="#handleOnMouseClicked" />
+   </children>
+</GridPane>
