@@ -90,7 +90,7 @@ public class ImageMemoryUtils {
 	
 	public static File[] getRandomListOfFiles(File dir, int numOfFilesToReturn, boolean unique, FileFilter filter) {
 		if (!dir.isDirectory())
-			throw new IllegalArgumentException("the file you specified must be a directory");
+			throw new IllegalArgumentException("the path you specified must be a directory");
 		if (unique && dir.listFiles(filter).length<numOfFilesToReturn)
 			throw new IllegalArgumentException("Number of files to Return are greater than the available files and asked for unique returned results");
 		
